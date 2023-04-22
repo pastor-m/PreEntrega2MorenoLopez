@@ -1,0 +1,243 @@
+/* Para que el gradiente no se repita en el fondo */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    height: 100%;
+}
+
+body{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background: rgb(2,0,36);
+    background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(7,82,32,1) 59%, rgba(0,94,38,1) 100%);
+    background-attachment: fixed;
+}
+
+
+header{
+    background-color: black;
+    color: white;
+    font-family: 'Bakbak One', cursive;
+    font-size: 30px;
+    width: 100%;
+    
+
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+    /* display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-around; */
+}
+
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+header a{
+    margin-right: 2rem;
+} 
+
+/* .menuHeader{
+    display: flex;
+    justify-content: space-between;
+    font-size: 24px;
+    list-style: none;
+    width: 100%;
+    margin-right: 20px;
+} */
+
+/* .logoHeader {
+    width: 30%;
+} */
+
+
+
+h1,h2 {
+    color: white;
+    font-family: 'Bakbak One', cursive;
+    font-size: 30px;
+    text-align: center;
+    
+}
+
+h2 {
+    padding-top: 1rem;
+}
+
+div p {
+    color: white;
+    font-family: 'Bakbak One', cursive;
+    font-size: 20px;
+}
+
+.destacado{
+   text-align: center;
+}
+
+.destacado img {
+    width: 800px;
+    border-radius: 30px;
+}
+
+.ofertas {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    margin: 60px;
+    gap: 30px;
+    
+}
+
+.ofertas img {
+    width: 400px;
+    border-radius: 30px;
+}
+
+.ofertas p {
+    text-align: center;
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
+
+.productos {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    gap: 30px;
+}
+
+.card {
+    background-color: rgb(68, 68, 68);
+    padding: 1rem;
+    border-radius: 10px;
+    max-width: 100%;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card img {
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;;
+}
+
+.card h4 , .card p{
+    font-family: 'Bakbak One', cursive;
+    color: white;
+    font-size: 1.5rem;
+    margin-top: 1px;
+}
+
+.card button{
+    width: 5rem;
+    height: 2rem;
+    border-radius: 5px;
+}
+
+.nosotros {
+    display: flex;
+    color: white;
+    align-items: center;
+}
+
+.nosotros img{
+    width: 600px;
+    /* height: 600px; */
+    margin-right: 50px;
+    border-radius: 30px;
+}
+
+.nosotrosTexto{
+    display: flex;
+    flex-direction: column;
+    margin-right: 50px;
+}
+
+.formulario {
+    text-align: center;
+    margin-top: 10rem;
+    color: white;
+}
+
+.formulario label{
+    font-size: 18px;
+    color: white;
+    font-family: 'Bakbak One', cursive;
+}
+
+.mensaje{
+    text-align: center;
+    margin-top: 3rem;
+}
+
+textarea{
+    width: 800px;
+    height: 400px;
+}
+
+.campos div{
+    display: inline;
+}
+
+.campo1{
+    margin-right: 16rem;
+}
+
+.botonEnviar {
+    width: 5rem;
+    height: 2rem;
+    border-radius: 5px;
+    margin-top: 2rem;
+}
+
+.mapa {
+    display: block;
+    text-align: center;
+}
+
+.mapa iframe{
+    width: 800px;
+    height: 300px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    font-family: 'Bakbak One', cursive;
+    font-size: 15px;
+    width: 100%;
+
+    display: inline-block;
+    z-index: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    text-decoration: none;
+    margin-top: auto;
+}
+
+.logosFooter{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+footer li{
+    list-style: none;
+    margin-right: 50px;
+}
+
+
